@@ -1,4 +1,4 @@
-ef oxford_comma(array)
+def oxford_comma(array)
   case array.size
   when 1
     return array[0].to_s
